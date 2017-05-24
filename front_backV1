@@ -1,0 +1,11 @@
+<form action="brad18.php" method="POST">
+    Name        <input type="text" name="account" > <br><br></input>
+    Password   <input type="password" name="password" > <br></input>
+    <input type="submit" value="send"></input>
+
+    <?php
+    $account=$_POST[$account]   ;
+    echo "$account" ;
+    ?>
+</form>
+
